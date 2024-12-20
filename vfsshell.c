@@ -81,7 +81,7 @@ void init() {
 }
 
 void prompt() {
-    printf("➜ %s ", current->name);
+    printf("-> %s ", current->name);
 }
 
 Node *create_node(char *name, int is_file) {
