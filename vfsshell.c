@@ -65,6 +65,8 @@ int main() {
             find(current, arg);
         } else if (strcmp(command, "tree") == 0) {
             tree(current, 0);
+        } else if (strcmp(command, "exit") == 0) {
+            return 1;
         } else {
             printf("vfsshell: command not found: %s\n", command);
         }
